@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+<link rel="stylesheet" href="css/base.css">
+<!--<link rel="stylesheet" href="../css/product.css">-->
+<style>
+	.main{
+		background:#fff;
+	}
+	#show_list{
+		width:80%;
+		margin:0 auto;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+	}
+	#show_list li{
+		width:30%;
+		margin:30px 0;
+	}
+	#show_list li p{
+		text-align:center;
+		padding:10px 0;
+	}
+	#show_list li p a{
+		font-size:18px;
+	}
+	#show_list li p a span{
+		font-size:15px;
+	}
+	#show_list li div{
+		display:flex;
+		justify-content:center;
+	}
+	#show_list li div .reduce,#show_list li div .add{
+		width:24px;
+		height:24px;
+		font-size:32px;
+		line-height:24px;
+		text-align:center;
+		background:#e0e0e0;
+		color:#fff;
+	}
+	#show_list li div .reduce:hover,
+	#show_list li div .add:hover{
+		background:#b3b3b3;
+		cursor:pointer;
+	}
+	#show_list li div input{
+		width:25px;
+		height:24px;
+		border:none;
+		text-align:center;
+		margin:0 3px;
+		position:relative;
+		bottom:4px;
+	}
+	#show_list li div .addCart{
+		font:14px simhei;
+		width:100px;
+		height:32px;
+		line-height:32px;
+		text-align:center;
+		background:#27b1f6;
+		color:#fff;
+		position:relative;
+		top:-4px;
+		left:8px;
+		cursor:pointer;
+	}
+	#pages{
+		width:80%;
+		margin:0 auto;
+		display:flex;
+		justify-content:center;;
+	}
+	#pages a{
+		padding:4px 10px;
+		border:1px solid #ddd;
+		border-radius:4px;
+		color:#0aa1ed;
+		disabled:disabled;
+	}
+	#pages a.disabled{
+    color:#bfbfbf;
+    background:#f2f2f2;
+    border:1px solid #bfbfbf;
+	}
+	#pages a.current{
+    border-color:#0aa1ed;
+    background:#0aa1ed;
+    color:#fff;
+	}
+	#cart{
+		width:20%;
+		position:fixed;
+		top:85%;
+		right:1%;
+	}
+	#cart>p.cart-title{
+    height:30px;
+    line-height:30px;
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    box-shadow:0 0 6px #ccc;
+    display:flex;
+    justify-content:space-between;
+    padding:0 5px;
+	}
+	#cart>div.cart-content{
+    height:46px;
+    width:100%;
+    background-color:#808080;
+    display:flex;
+    justify-content:space-between;
+    border-top:1px dashed #ddd;
+	}
+	#cart>div.cart-content>a{
+    width:60px;
+    font-size:16px;
+    line-height:40px;
+    background:linear-gradient(to bottom,#27b1f6,#0aa1ed);
+    text-align:center;
+    color:#fff;
+	}
+	.total_price{
+    line-height:35px;
+    color:#fff;
+    font-size:2em;
+	 padding-right:10px;
+	}
+	.total_price img{
+		vertical-align:middle;
+	}
+</style>
+</head>
+<body>
+<div class="main">
+<!-- 	header start -->
+	<div id="header">
+		
+	</div>
+<!--  header end-->
+<!--  商品列表 start-->
+	<div id="product_list">
+		<div id="show_list" class="clear">
+		</div>	
+		<div id="pages">
+		</div>
+		<div id="cart">
+         <!-- <p class="cart-title">
+            <b>购物车</b>
+            <a href="#">清空</a>
+          </p>
+          <div class="cart_content">
+          </div>
+          <div class="cart-content">
+            <div class="total_price lf">
+              <img src="../images/foodstore_car_2.png" alt="">¥<span id="total">0.00</span>
+            </div>
+            <a href="#">去结算</a>
+          </div>
+        </div>-->
+	</div>
+<!--  商品列表end-->
+</div>
+
+<div id="footer">
+	
+</div>
+
+<script src="js/myQuery.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/jquery.1.9.1.js"></script>
+<script src="js/product.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+/*以下是footer内容*/
+.wx,.app{
+	box-sizing:border-box;
+}
+#footer{
+	background:#000;
+}
+ul{
+	margin:0 auto;
+}
+.public_footer .fTags .pub-main .box a:hover{color:#FF6617;border:1px solid #000;}
+.footall{
+	width:1200px;	
+	margin:0 auto;
+	text-align:center;
+	padding-top:30px;
+}
+.footer1>ul,.footer2>ul{
+	float:left;
+}
+.footer1>ul>li{
+	float:left;
+	font-size:16px;
+	margin:0 21px;
+	padding-bottom:15px;
+}
+.footer1>ul>li:nth-child(2){
+	font-size:40px;
+}
+.footer1>ul>li:first-child{
+	width:330px;
+	border-right:1px solid #2A2A2A;
+	margin-bottom:5px;
+}
+.footer1>ul>li>a{
+	line-height:60px;
+	color:#BEBEBE;
+}
+.footer1>ul>li>a:hover{
+	color:#D76600;
+	text-decoration:underline;
+}
+.footer2>ul>li{
+	width:400px;
+/*	height:130px;*/
+	border:1px solid #2A2A2A;
+	float:left;
+	box-sizing:border-box;
+	padding-top:25px;
+	padding-bottom:10px;
+	text-align:left;
+}
+.footer2>ul>li:first-child{
+	border-left:transparent;
+	border-bottom:transparent;
+	width:351px;
+}
+.footer2>ul>li:last-child{
+	border-right:transparent;
+	border-bottom:transparent;
+	width:445px;
+}
+.footer2>ul>li>p{
+	font-size:14px;
+	color:##595959;
+	line-height:25px;
+	margin-left:30px;
+}
+.ft2>p>a:hover{
+	color:#D76600;
+	text-decoration:underline;
+}
+
+.public_footer .fTags{
+			min-height:40px;
+			min-width:1180px;
+			background:#ffffff;
+			overflow:hidden;
+		}
+		.public_footer .fTags .pub-main{
+			width:1160px;
+			margin:0 auto;
+			padding-top: 46px;
+			overflow: hidden;
+		}
+		.public_footer .fTags .pub-main .box{
+			width:1160px;
+			margin-bottom:20px;
+			overflow: hidden;
+		}
+		.public_footer .fTags .pub-main .box a{
+			display:block;
+			height:36px;
+			line-height:36px;
+			padding:0 16px;
+			border:1px solid #d0d0d0;
+			border-radius:36px;
+			float:left;
+			margin:0 10px 15px 0;
+			color:#545454;
+			font-size:16px;
+		}
+		.public_footer .fTags .pub-main .box a.bold{
+			font-weight:bold;
+		}
+		.public_footer .fTags .pub-main .box a.on{
+			font-weight:bold;
+			color:#ff7e00;
+		}
+		.public_footer .fTags .pub-main .box span{
+			border:none;
+			font-size:18px;
+			color:#000;
+			float:left;
+			height:36px;
+			line-height:36px;
+			margin:0 10px 15px 0;
+		}
+		/*微信 微博 code*/
+		.public_footer .fCode{
+			min-height:40px;
+			background:#fff;
+			min-width:1180px;
+			border-top:2px solid #f1f1f1;
+			overflow:hidden;
+		}
+		.public_footer .fCode .code-main{
+			width:1160px;
+			margin:0 auto;
+			padding:40px 0;
+			overflow:hidden;
+		}
+		.public_footer .fCode .code-main .box{
+			width:1200px;
+		}
+		.public_footer .fCode .code-main .box .wx{
+			width:300px;
+			float:left;
+			margin-right:70px;
+			padding-left:76px;
+			background:url("../images/ft_wx.png") no-repeat;
+		}
+		.public_footer .fCode .code-main .box dt{
+			width:120px;
+			float:left;
+			font-size:16px;
+		}
+		.public_footer .fCode .code-main .box dd{
+			width:102px;
+			float:right;
+			height:102px;
+		}
+		.public_footer .fCode .code-main .box dd img{
+			width:102px;
+			height:102px;
+		}
+		.public_footer .fCode .code-main .box .wx-top{
+			display:block;
+			height:26px;
+		}
+		.public_footer .fCode .code-main .box .wx-center{
+			display:block;
+			font-weight:bold;
+			height:26px;
+			margin-bottom:30px;
+		}
+		.public_footer .fCode .code-main .box .wx-bottom{
+			display:block;
+			font-size:14px;
+		}
+		.public_footer .fCode .code-main .box .sina {
+			background:url("../images/ft_sina.png") no-repeat;
+		}
+		.public_footer .fCode .code-main .box .app{
+			width:300px;
+			float:left;
+			margin-left:1px;
+			padding-left:50px;
+			text-align:center;
+			background:url("../images/ft_app.png") no-repeat;
+		}
+		.public_footer .fCode .code-main .box .app dt ul{
+			width:120px;
+			margin-bottom:8px;
+			overflow:hidden;
+		}
+		.public_footer .fCode .code-main .box .app dt ul li{
+			width:120px;
+			height:26px;
+			font-weight:bold;
+			cursor:pointer;
+		}
+		.public_footer .fCode .code-main .box .app dt ul li.on{
+			background:url("../images/arrow_r.png") no-repeat right 4px;
+		}
+		.public_footer .fCode .code-main .box .app dd .appBox{
+			width:102px;
+			overflow:hidden;
+		}
+		.public_footer .fCode .code-main .box .app dd .appBox .item.on{
+			display:block;
+		}
+		.public_footer .fCode .code-main .box .app dd .appBox .item{
+			display:none;
+		}
+	

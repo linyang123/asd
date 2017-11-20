@@ -1,0 +1,582 @@
+body{background:#FFF;}
+/*当季新品标题*/
+	.new{
+		width:600px;
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.new>h1{
+		text-align:center;
+		font-size:45px;
+	}
+/*当季新品类容*/
+	.new_total{
+		width:1160px;
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.xptj{
+		width:760px;
+		min-height:200px;
+		background:#FFF;
+		float:left;
+	}
+/*当季新品————新品推荐*/
+	.xptj_circle{
+		text-align:center;
+		font-weight:bold;
+		font-size:18px;
+		padding:19px 0;
+		background:#E5E3E3;
+		height:50px;
+		color:#000;
+	}
+/*当季新品————4个圆圈儿*/
+	.xptj_d{
+		margin:0 auto;
+		width:440px;
+		margin-top:20px;
+	}
+	.new_ul>li{
+		float:left;
+		width:55px;
+		height:55px;
+		text-align:center;
+		border:2px solid #CDCDCD;
+		line-height:55px;
+		margin:0 14px;
+		border-radius:50%;
+		font-size:15px;
+	}
+	.new_ul>li:hover{
+		cursor:pointer;
+		border:2px solid #EB215A;
+		color:#EB215A;
+	}
+/*当季新品————6张图片*/
+	.img_div{
+		margin-top:50px;
+		background:#FFF;
+	}
+	.new_img{
+		width:180px;
+		float:left;
+		margin-left:65px;
+	}
+	.new_img>span{
+		display:block;
+		width:180px;
+		text-align:center;
+		line-height:40px;
+		font-size:14px;
+		height:40px;
+	}
+/*当季新品————右侧*/
+	.bzzx{
+		width:360px;
+		height:680px;
+		min-height:200px;
+		background:#FFF;
+		float:right;
+		border-top:2px solid #EB215A;
+	}
+	.bzzx_title>p{
+		width:360px;
+		text-align:center;
+		font-size:20px;
+		font-weight:bold;
+		margin-top:15px;
+		color:#000;
+	}
+	.bzzx_title>span{
+		display:block;
+		width:360px;
+		text-align:center;
+		font-size:16px;
+		margin-top:5px;
+		color:#B2B2B2;
+	}
+	/*当季新品————右侧————6张图片*/
+	.bzzx_img{
+		width:150px;
+		height:180px;
+		float:left;
+		margin-top:20px;
+		margin-left:20px;
+		text-align:center;
+	}
+	.bzzx_img>span{
+		font-size:13px;
+	}
+	.bzzx_img>span>a{
+		display:block;
+		width:144px;
+		color:#000;
+	}
+	.bzzx_img>span>a:hover{
+		color:#FF6616;
+	}
+/*热品推荐————————*/
+	.rptj{
+		width:1160px;
+		height:580px;
+		margin:0 auto;
+	}
+	.rptj_title{
+		width:600px;
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.rptj_title>h1{
+		text-align:center;
+		font-size:45px;
+	}
+	/*排行榜—————————*/
+	.rank{
+		width:1200px;
+		background:#FFF;
+		margin:0 auto;
+		margin-bottom:25px;
+	}
+	.rank_title{
+		text-align:center;
+		font-size:45px;
+	}
+	.rank_title>h1{
+		text-align:center;
+		font-size:45px;
+	}
+	.rptj_left{
+		width:760px;
+		min-height:200px;
+		float:left;
+		margin-right:40px;
+		background:#FFF;
+	}
+	.rptj_right{
+		width:360px;
+		min-height:200px;
+		float:right;
+		background:navy;
+	}
+/*热品推荐—————左侧*/
+	/*左侧3个 日常护理 夜间护理 彩妆香氛*/
+		.rptj_main{
+			height:49px;
+			width:762px;
+		}
+		.rptj_main h3{
+			width:252px;
+			float:left;
+			line-height:49px;
+			margin:0 2px 0 0;
+			text-align:center;
+			position:relative;
+			font-size:18px;
+			cursor:pointer;
+		}
+		.rptj_main>.m_left{
+			background:#000;
+			color:#FFF;
+		}
+		.rptj_main>.m_middle,.rptj_main>.m_right{
+			background:#efefef;
+		}
+		.m_left_i{
+			opacity:1;
+			margin:0 0 0 -10px;
+			display:block;
+			width:0;
+			height:0;
+			line-height:0;
+			position:absolute;
+			left:50%;
+			bottom:-20px;
+			border:10px solid;
+			border-color:#000 #f7f7f7 #f7f7f7 #f7f7f7; 
+		}
+		.m_middle_i,.m_right_i{
+			margin:0 0 0 -10px;
+			display:block;
+			width:0;
+			height:0;
+			line-height:0;
+			position:absolute;
+			left:50%;
+			bottom:-20px;
+			border:10px solid;
+			border-color:#000 #f7f7f7 #f7f7f7 #f7f7f7;
+			display:none;
+		}
+	/*左侧类容 5个圆圈*/
+		.boxtitle{
+			width:677px;
+			height:61px;
+			padding:0 43px 0 40px;
+			background:#f7f7f7;
+			margin:0 0 50px;
+		}
+		.boxtitle>div{
+			width: 677px;
+			height: 69px;
+			overflow: hidden;
+			position: relative;
+			top: 28px;
+		}
+		.boxtitleul{
+			width:760px;
+			height:69px;
+		}
+		.boxtitleul li{
+		float: left;
+		width: 152px;
+		height: 65px;
+		background: url("../images/cos_ico.png") repeat right 23px;
+		}
+		.boxtitleul li.on a.t01 {
+		 background:#eb215a;
+		}
+		.boxtitleul li.on a {
+		 color: #fff;
+		}
+		.boxtitleul li a.t01 {
+		 border-color: #eb215a;
+		}
+		.boxtitleul li a {
+		 display: block;
+		 width: 65px;
+		 height: 65px;
+		 border: 2px solid #6ecea9;
+		 border-radius: 50%;
+		 text-align: center;
+		 background: #fff;
+		 text-decoration: none;
+		}
+		.boxtitleul li b {
+		 display: block;
+		 margin: 9px 0 0;
+		 font-size: 18px;
+		 font-family: Arial;
+		}
+		.boxtitleul li a.t02 {
+		 border-color: #7dd2b0;
+		}
+		.boxtitleul li a.t02:hover{
+			background:#7dd2b0;
+			color:white;
+		}
+		.boxtitleul li a.t03 {
+		 color: #f9c358;
+		 border-color: #f9c358;
+		}
+		.boxtitleul li a.t03:hover{
+			background:#f9c358;
+			color:white;
+		}
+		.boxtitleul li a.t04 {
+		 color: #747ba7;
+		 border-color: #747ba7;
+		}
+		.boxtitleul li a.t04:hover{
+			background:#747ba7;
+			color:white;
+		}
+		.boxtitleul li a.t05 {
+		 color: #80c258;
+		 border-color: #80c258;
+		}
+		.boxtitleul li a.t05:hover{
+			background:#80c258;
+			color:white;
+		}
+	/*左侧类容 图片*/
+		.boxCont .con{
+			width:780px;
+		}
+		.con>dl{
+			float:left;
+		}
+		.con>dl>dd{
+			width:240px;
+		}
+		.con>dl>dd>h4{
+			width:240px;
+			height:22px;
+			margin:16px 0 13px;
+			text-align:center;
+			overflow:hidden;
+		}
+		.con>dl>dt>a>img{
+			margin-left:30px;
+		}
+		.star{
+			height:12px;
+		}
+		.star>div{
+			width:80px;
+			height:12px;
+			margin:0 auto;
+			overflow:hidden;
+			background:url("../images/hzp-star.png") no-repeat 0 0;
+		}
+		.info{
+			text-align:center;
+			margin:10px 0 15px;
+			width:240px;
+			height:22px;
+			overflow:hidden;
+		}
+		.key{
+			width:240px;
+			height:30px;
+			overflow:hidden;
+		}
+/*热品推荐————右侧*/
+	.recommend_sub{
+		width:360px;
+		overflow:hidden;
+		height:553px;
+		background:#f7f7f7;
+		border-top:2px solid #eb215a;
+	}
+	.recommend_sub>h2{
+		width:148px;
+		height:39px;
+		line-height:39px;
+		margin:0 auto 20px;
+		overflow:hidden;
+		color:#FFF;
+		text-align:center;
+		font-size:18px;
+		background:#eb215a;
+	}
+	.recommend_sub>.scroll{
+		width:360px;
+		height:470px;
+		margin:0 auto;
+		position:relative;
+		overflow:hidden;
+	}
+	.scroll_box{
+		width:240px;
+		height:470px;
+		margin:0 auto;
+		overflow:hidden;
+	}
+	.content{
+		width:3000px;
+		height:100%;
+		overflow:hidden;
+	}
+	.item{
+		width:240px;
+		height:100%;
+		overflow:hidden;
+		float:left;
+	}
+	.item>.pic{
+		width:238px;
+		height:374px;
+		overflow:hidden;
+		border:1px solid #f2f2f2;
+	}
+	.item>.pic>dt{
+		width:240px;
+		height:248px;
+		overflow:hidden;
+		text-align:center;
+		border-bottom:1px solid #f2f2f2;
+		background:#FFF;
+	}
+	.pic>dd{
+		width:242px;
+		height:124px;
+		overflow:hidden;
+	}
+	.pic>dd>div{
+		width:119px;
+		height:124px;
+		overflow:hidden;
+		text-align:center;
+		float:left;
+		border-right:1px solid #f2f2f2;
+		background:#FFF;
+	}
+	.text{
+		width:240px;
+		margin:0 auto;
+		text-align:center;
+		padding-top:10px;
+		font-size:14px;
+		color:#323232;
+	}
+	.text>dt{
+		margin-bottom:12px;
+		font-size:16px;
+		width:240px;
+		height:24px;
+		line-height:24px;
+		overflow:hidden;
+		text-overflow:ellipsis;
+	}
+	.text>dd{
+		width:240px;
+		overflow:hidden;
+		height:50px;
+		color:#848484;
+		line-height:25px;
+	}
+	.scroll>.btn_left{
+		width:30px;
+		height:58px;
+		background:url("../images/arrow.png") no-repeat;
+		background-position:0 -62px;
+		position:absolute;
+		left:20px;
+		top:135px;
+		z-index:3;
+		cursor:pointer;
+	}
+	.scroll>.btn_right{
+		left:auto;
+		right:20px;
+		
+		width:30px;
+		height:58px;
+		background:url("../images/arrow.png") no-repeat;
+		background-position:-30px -62px;
+		position:absolute;
+		top:135px;
+		z-index:3;
+		cursor:pointer;
+	}
+
+/*排行榜——————————HOT 标题*/
+		.rank_inner{
+			width:1160px;
+			background:#FFF;
+			margin:0 auto;
+		}
+		.rank_box{
+			width:357px;
+			float:left;
+			margin-bottom:50px;
+		}
+		.rkb{
+			margin-right:44px;
+		}
+		.rank_box>h2{
+			background:url("../images/top_bg.png") no-repeat;
+			height:50px;
+			text-align:center;
+			line-height:50px;
+			font-size:20px;
+			color:#fff;
+		}
+
+/*排行榜——————————类容*/
+	.rank_box>ul{
+		width:320px;
+		min-height:200px;
+	/*   list-style: decimal;*/
+	}
+	.rank_box_li{
+		width:319px;
+		height:80px;
+		border-bottom:1px dashed #E5E5E5
+	}
+	.box_li_1{
+		width:20px;
+		height:80px;
+		font-size:35px;
+		line-height:80px;
+		float:left;
+	}
+	.box_li_div{
+		height:80px;
+		float:left;
+		text-align:center;
+		line-height:80px;
+	}
+	.box_li_span{
+		height:20px;
+		display:-webkit-box;
+		width:170px;
+		font-size:16px;
+		margin-left:15px;
+	}
+	.rank_box_li>a>img{
+		padding-top:20px;
+		float:right;
+	}
+	/*排行榜下面很多li*/
+	.box_,.box__{
+		margin:0 auto;
+		width:1160px;
+		margin-bottom:20px;
+	}
+	.box_ a,.box__ a{
+		display:block;
+		height:36px;
+		line-height:36px;
+		padding:0 16px;
+		border:1px solid #d0d0d0;
+		border-radius:36px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:15px;
+		color:#545454;
+		font-size:16px;
+	}
+/*页尾二维码部分*/
+	.code{
+		width:100%;
+		height:185px;
+		border-top:1px solid #F1F1F1;
+	}
+	.code_div{
+		width:1160px;
+		height:185px;
+		margin:0 auto;
+	}
+	.code_img{
+		width:350px;
+		height:102px;
+		text-align:center;
+		padding-top:40px;
+		float:left;
+	}
+	.code_img>.p1,.code_img>.p2,.code_img>.p3{
+		display:block;
+		height:102px;
+		width:70px;
+		float:left;
+		background: url("../images/ft_wx.png") no-repeat;
+	}
+	.code_img>.p2{
+		background: url("../images/ft_sina (1).png") no-repeat;
+	}
+	.code_img>.p3{
+		background: url("../images/ft_app (1).png") no-repeat;
+	}
+	.code_img>ul{
+		height:100px;
+		float:left;
+	}
+	.code_img>ul>.code_li1{
+		height:26px;
+		font-size:16px;
+	}
+	.code_img>ul>.code_li2{
+		height:26px;
+		font-size:20px;
+		margin-bottom:26px;
+	}
+	.code_img>img{
+		height:102px;
+		width:102px;
+	}
+	.a1{
+		font-size:16px;
+		line-height:27px;
+	}

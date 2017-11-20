@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+.w980{
+    width:980px;
+}
+.header_box{
+    width:980px;
+    margin:0 auto;
+}
+.yo_topNav{
+    height:21px;
+    background: #f8f8f8;
+    color:#404040;
+    font-size:15px;
+    line-height: 22px;
+    overflow: hidden;
+    border-bottom: 1px solid #dcdcdc;
+}
+.yo_topNav_links{
+    width:220px;
+    float:left;
+    padding:0 0 0 10px;
+    margin:0;
+}
+.yo_topNav_links li{
+    float:left;
+}
+.yo_topNav_links li:first-child{
+    margin-right: 50px;
+}
+.yo_topNav_info{
+    float:right;
+}
+.yo_topNav_info ul li{
+    float:right;
+    margin:0 4px;
+}
+.main_box{
+    margin: 0 auto;
+}
+.top_box{
+    height:89px;
+    position: relative;
+ }
+.top_box dt{
+    position: absolute;
+    top:36%;
+    left:6%;
+}
+.top_box dd{
+    height:55px;
+    border-bottom:1px solid #d0d0d8;
+}
+.middle_box{
+	font-family:'Microsoft Yahei';
+	background:#fff url("../images/regBG.jpg") no-repeat right top;
+	height:600px;
+}
+.part_title{
+	height:51px;
+	overflow:hidden;
+	padding:30px 0 10px 30px;
+}
+.part_title dt{
+	width:46px;
+	height:26px;
+	float:left;
+	background:url("../images/spt.jpg") no-repeat;
+	overflow:hidden;
+	background-position:-400px -261px;
+}
+.part_title dd{
+	height:25px;
+	float:left;
+	overflow:hidden;
+	color:#666;
+	font:14px "Microsoft Yahei";
+	padding:5px 0 0 14px;
+}
+.reglietab{
+	height:40px;
+	width:710px;
+	margin:30px 0 40px 0;
+	border-bottom:1px solid #e6e6e6;
+	position:relative;
+}
+.reglietab dt{
+	height:40px;
+	background-color:#fff;
+	width:178px;
+	border:1px solid #e6e6e6;
+	border-bottom:0 none;
+	font:18px "Microsoft Yahei";
+	text-align:center;
+	line-height:40px;
+	position:absolute;
+	top:0;
+	left:40px;
+}
+.reg_form{
+	padding-left:26px;
+	width:930px;
+	height:390px;
+}
+.reg_form form dl{
+	height:46px;
+	color:#333;
+}
+.reg_form form dt{
+	width:100px;
+	float:left;
+	font-size:14px;
+	text-align:right;
+	padding:5px 5px 0 0;
+}
+.reg_form form dd{
+	width:610px;
+	height:35px;
+	float:left;
+	padding:0 0 0 8px;
+	background:url("../images/spt.jpg") no-repeat -590px -310px;
+}
+.reg_form form dt span{
+	font-size:10px;
+	color:#ff529a;
+	padding:0 0 0 9px;
+}
+.reg_form form dd p{
+	display:inline-block;
+	width:233px;
+	height:31px;
+	padding:0 8px 0 0;
+	background:url("../images/spt.jpg") no-repeat right top;
+}
+.reg_form form dd p .txt_input{
+	border:0;
+	height:20px;
+	width:225px;
+	color:#a8a8a8;
+	font-size:14px;
+	margin:6px 0 0 0;
+	outline:none;
+}
+.reg_form form dd span{
+	display:inline-block;
+	vertical-align:middle;
+	color:#b1b1b1;
+	padding:0 0 0 10px;
+}
+.reg_form dl.mobfd{
+	height:90px;
+}
+.reg_form dd.onerror{
+	background-position:-590px -390px;
+}
+.onerror .onerror_p{
+	width:71px;
+	vertical-align: top;
+	background-position: right -80px;
+}
+.onerror .onerror_p .txt_input{
+	width:70px;
+}
+.reg_form .onerror span{
+	width:85px;
+	height:30px;
+}
+.reg_form .onerror .gray_txt{
+	width:100px;
+	height:20px;
+	margin-top:10px;
+}
+.reg_form .onerror .gray_txt a{
+	color:#B1B1B1;
+}
+.reg_form .onerror .gray_txt a:hover{
+	color:#FF6600;
+}
+.onerror div{
+	margin:5px 0 0 -8px;
+}
+.onerror div b a{
+	display: inline-block;
+	height:35px;
+	line-height: 35px;
+	font-size: 16px;
+	background: #495467;
+	border: 1px solid #d2d2da;
+	padding:0 15px;
+}
+.onerror div b a:hover,.reg_now .submit_box input:hover{
+	background:#4977B5;
+}
+.onerror div b a b{
+	color: #fff;
+}
+.short_input .check_code span{
+	width:255px;
+	height:30px;
+	line-height: 30px;
+	color:#b1b1b1;
+	padding-left:15px;
+}
+.upwd dd p input,.username dd p input{
+	display:inline-block;
+	width:222px;
+	height:20px;
+	margin:6px 0 0 0;
+	border:0 none;
+	outline: 0;
+}
+.serviceCheck .read_check,.reg_now .submit_box{
+	background: none;
+}
+.serviceCheck .read_check input{
+	display: inline-block;
+	vertical-align: middle;
+}
+.serviceCheck .read_check span{
+	display: inline-block;
+	vertical-align: middle;
+	color:#999;
+	padding-left:5px;
+	font-size: 12px;
+}
+.serviceCheck .read_check span a{
+	color:#4B85D4;
+}
+.serviceCheck .read_check span a:hover{
+	color:#FF6600;
+}
+.reg_now .submit_box input{
+	display:block;
+	width:111px;
+	height:36px;
+	border: 0 none;
+	line-height: 36px;
+	text-align: center;
+	background: #495468;
+	color:#fff;
+	font-size:15px;
+}
+.bottom_box{
+	text-align: center;
+	padding-top:40px;
+}
+.bottom_box div{
+	height:40px;
+	color:#333;
+}
+.bottom_box div a{
+	display: inline-block;
+	margin: 0 13px 0 12px;
+}
+.bottom_box p{
+	height:25px;
+	color:#999;
+}

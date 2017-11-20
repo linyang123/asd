@@ -1,0 +1,175 @@
+/*顶部LOGO*/
+	.head_logo{
+		text-align:center;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+/*首页 时尚 导航栏*/
+	.head_nav{
+		width:1050px;
+		height:54px;
+		margin:0 auto;
+	}
+/*首页时尚*/
+	.head_nav1{
+		width:790px;
+		text-align:left;
+		float:left;	
+	}
+	.head_nav1>li{
+		float:left;
+		margin-right:28px;	
+		font-size:20px;	
+		color:red;
+		line-height:50px;
+	}
+/*首页时尚————登录注册*/
+	.head_nav2{
+		width:255px;
+		float:right;
+		height:50px;
+		line-height:50px;
+	}
+	.head_nav2>li{
+		float:left;
+		margin-right:15px;
+	}
+	.head_nav2>li>a>img{
+		padding-bottom:15px;
+	}
+/*YOKA化妆品导航栏*/
+	.hInner{
+		width:100%;
+		background:#474747;
+		text-align:center;
+	}
+	.box{
+		width:1100px;
+		margin:0 auto;
+	}
+/*导航字体*/
+	.box1 a{
+		color:white;
+		margin-left:16px;
+	}
+	.box2 a{
+		color:white;
+	}
+	a:hover{
+		color:#FF6616;
+		text-decoration:underline;
+	}
+/*精灵图*/
+	.box1{
+		width:196px;
+		background:#D91947;
+		background-image:url(../images/hzp_pubbg.png);
+		background-position:10px 10px;
+		background-repeat:no-repeat;
+		font-size:20px;
+		line-height:50px;
+		float:left;
+	}
+/*化妆品库 试用中心*/
+	.box2{
+		width:600px;
+		height:50px;
+		float:left;
+		font-size:20px;
+	}
+	.box2>a{
+		line-height:50px;
+		margin-left:10px;
+	}
+/*搜索框*/
+	.box3{
+		float:left;
+		width:300px;
+		position:relative;
+	}
+	.box3>li>.msg{
+		height:30px;
+		width:162px;
+		margin-top:5px;
+		padding-left:8px;
+		padding-right:128px;
+	}
+	.btn1{
+		height:36px;
+		position:absolute;
+		left:64%;
+		top:13%;
+	}
+	.btn2{
+		height:36px;
+		position:absolute;
+		left:82%;
+		top:13%;
+	}
+/*热门搜索 护肤 美体*/
+	.sort_box{
+		text-align:center;
+		margin-bottom:30px;
+	}
+	.sort{
+		width:1150px;
+		margin:0 auto;
+		border:2px solid #000;
+	}
+/*左边部分*/
+	.sort_l{
+		width:807px;
+		float:left;
+	}
+	.l{
+		width:265px;
+		height:151px;
+		border:1px solid #E5E5E5;
+		float:left;
+		position:relative;
+		border-top:transparent;
+		border-left:transparent;
+	}
+	.ll{
+		width:240px;
+		height:110px;
+		position:absolute;
+		top:6%;
+		left:14%;
+	}
+	.lll{
+		border-right:transparent;
+	}
+	.llll{
+		border-bottom:transparent;
+	}
+	.ll>span{
+		display:inline-block;
+		width:240px;
+		float:left;
+	}
+	.ll>span>img{
+		float:left;
+	}
+	.ll a{
+		display:inline-block;
+		font-size:15px;
+		margin-right:22px;
+		color:#474747;
+		margin-top:8px;
+		float:left;	
+	}
+	.ll>span>a{
+		font-size:18px;
+		margin-left:5px;
+	}
+/*右边两张图片*/
+	.sort_r{
+		width:308px;
+		height:300px;
+		float:left;
+	}
+	.sort_r a img{
+		margin-top:20px;
+	}
+	

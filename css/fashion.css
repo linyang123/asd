@@ -1,0 +1,547 @@
+a:hover{ color:#FF6617;}
+.hInner .box a:hover{  color:#FF6617; }
+.main{
+    margin-bottom:-10px;
+}
+*{
+ box-sizing: border-box;
+}
+/*顶部LOGO*/
+    .head_logo{
+        text-align:center;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+/*首页 时尚 导航栏*/
+    .head_nav{
+        width:1050px;
+        height:54px;
+        margin:0 auto;
+    }
+/*首页时尚*/
+    .head_nav1{
+        width:790px;
+        text-align:left;
+        float:left;
+    }
+    .head_nav1>li{
+        float:left;
+        margin-right:28px;
+        font-size:20px;
+        color:red;
+        line-height:50px;
+    }
+    .head_nav1>.ss{
+        border-bottom: 4px solid #FF5400;
+    }
+    .head_nav1>.ss>a{
+        color:#FF5400;
+        font-weight:bold;
+    }
+/*首页时尚————登录注册*/
+    .head_nav2{
+        width:255px;
+        float:right;
+        height:50px;
+        line-height:50px;
+    }
+    .head_nav2>li{
+        float:left;
+        margin-right:15px;
+    }
+    .head_nav2>li>a>img{
+        padding-bottom:15px;
+    }
+/*YOKA化妆品导航栏*/
+    .hInner{
+        width:100%;
+        background:#E5E5E5;
+        text-align:center;
+        height:50px;
+        line-height:50px;
+    }
+    .box{
+        width:1100px;
+        margin:0 auto;
+    }
+/*头部导航条2*/
+    .hInner .box{
+        width:1160px;
+        margin:0 auto;
+        text-align:center;
+        font-size:16px;
+        overflow: hidden;
+    }
+    .hInner .box a{
+        margin:0 21px;
+        color:#7f7f7f;
+    }
+    /*轮播*/
+        .jq22-container{
+            background:#2c2c2c;
+        }
+        #wrap{
+            width: 80%;
+            min-width: 1180px;
+            margin: 10px auto 30px;
+            overflow:hidden;
+        }
+        .hiSlider{
+            overflow: hidden;
+            height: 280px;
+            width: 500px;
+            background: #eee;
+        }
+        .hiSlider-item{
+            float: left;
+        }
+					.hiSlider-wrap{
+		margin:0 auto;
+	}
+/*主体内容 今日热点*/
+    .g-box{
+        width:1180px;
+        margin:0 auto;
+        background:#f3f3f3;
+        padding:0 10px;
+        overflow: hidden;
+    }
+    .p-content.first{
+        margin-top:0;
+    }
+    .p-content{
+        width:1180px;
+        margin:30px 0;
+        overflow: hidden;
+    }
+    .gLeft{
+        width:790px;
+        float:left;
+        overflow: hidden;
+    }
+    .gRight{
+        width:373px;
+        float:right;
+        overflow: hidden;
+    }
+    .gListBox .g-list{
+        margin:0 20px 20px 0;
+    }
+    .g-list{
+        width:373px;
+        height:395px;
+        float:left;
+        background: #ffffff;
+        overflow: hidden;
+    }
+    .g-list .img{
+        width:373px;
+        height:300px;
+        position:relative;
+        overflow: hidden;
+    }
+    .g-list img{
+        width:100%;
+    }
+    .g-list .tit{
+        width:320px;
+        height:52px;
+        line-height: 26px;
+        margin:16px auto 0;
+        text-align:center;
+        font-size:18px;
+        font-weight:bold;
+        overflow: hidden;
+    }
+    .fs_todayHot{
+        width:373px;
+        padding:0 21px 0 22px;
+        background:#ffffff;
+        height:810px;
+        overflow: hidden;
+    }
+    .fs_todayHot .tit{
+        height:40px;
+        font-size:18px;
+        margin-bottom: 13px;
+        border-bottom: 1px solid #222222;
+        position: relative;
+    }
+    .fs_todayHot .tit span{
+        width:200px;
+        height:40px;
+        line-height:40px;
+        margin:0 auto;
+        text-align:center;
+        background:#222222;
+        color:#ffffff;
+        display:block;
+    }
+    .fs_todayHot .tit i{
+        width:0;
+        height:0;
+        margin:0 0 0 -10px;
+        display:block;
+        line-height:0;
+        position:absolute;
+        left:50%;
+        bottom:-21px;
+        border:10px solid;
+        border-color:#222222 #fff #fff #fff;
+    }
+    .fs_todayHot .hotText{
+        width:330px;
+        margin-bottom: 7px;
+        overflow: hidden;
+    }
+    .fs_todayHot .hotText .fcut{
+        width:330px;
+        height:57px;
+        background:url(../images/today.png) no-repeat center bottom;
+        overflow: hidden;
+        text-align:center;
+        font-size: 16px;
+        padding:14px 0 0;
+        white-space:nowrap;
+        text-overflow: ellipsis;
+    }
+    .fs_todayHot .adBox{
+        width:330px;
+        height:490px;
+        position:relative;
+        overflow: hidden;
+        margin-top:10px;
+    }
+    .fs_todayHot .adBox div{
+        width:330px;
+        height:490px;
+        position:relative;
+        brder:none;
+        padding:0px;
+        margin:0px;
+        overflow: hidden;
+    }
+    .fs_todayHot .adBox div img{
+        width:330px;
+        height:490px;
+        border:none;
+    }
+/*独家策划*/
+    .feature_new{
+        width:766px;
+        height:490px;
+        border-top:4px solid #323232;
+        background:#fff;
+        overflow: hidden;
+    }
+    .feature_new .menu{
+        width:766px;
+        height:70px;
+        position:relative;
+        overflow: hidden;
+    }
+    .feature_new .menu ul{
+        height:70px;
+        float:right;
+    }
+    .feature_new .menu .tit{
+        display:block;
+        width:120px;
+        height:66px;
+        line-height:66px;
+        text-align:center;
+        position:absolute;
+        left:0;
+        top:0;
+        font-size:24px;
+        color:#444;
+        font-weight:bold;
+    }
+        .feature_new .menu li{
+            height:66px;
+            line-height:66px;
+            margin-right:20px;
+            float:left;
+            font-size: 16px;
+            color:#535353;
+            font-weight:bold;
+            overflow: hidden;
+        }
+        .vdInBox{
+            width:373px;
+            height:494px;
+            background:#2c2c2c;
+            text-align:center;
+            overflow: hidden;
+        }
+        .vdInBox .tit{
+            height:75px;
+            line-height:75px;
+            font-size:24px;
+            color:#e8e8e8;
+            background: url("../images/vd_fash.jpg?20170427") no-repeat;
+            overflow: hidden;
+        }
+        .vdInBox .vd{
+            width:373px;
+            height:280px;
+            position:relative;
+            overflow: hidden;
+        }
+        .vdInBox .icon{
+            width:44px;
+            height:41px;
+            background:url("../images/play.png") no-repeat;
+            position:absolute;
+            left:50%;
+            top:50%;
+            margn:-20px 0 0 -22px;
+            overflow: hidden;
+        }
+        .vdInBox p{
+            display:block;
+            width:296px;
+            font-size:18px;
+            color:#fff;
+            margin:10px auto 0;
+            line-height: 26px;
+            max-height: 78px;
+            overflow: hidden;
+        }
+        .vdInBox span{
+            display:block;
+            height:20px;
+            font-size:16px;
+            line-height:20px;
+            color:#8b8b8b;
+            margin-top:18px;
+        }
+/*独家策划 下面4个横向图片*/
+    .maskBox{
+        width:1180px;
+        overflow: hidden;
+    }
+    .maskBox .g-verFash{
+        float:left;
+        margin-right: 20px;
+    }
+    .g-verFash{
+        width:275px;
+        height:442px;
+        position:relative;
+        overflow: hidden;
+    }
+    .g-verFash img{
+        width:100%
+    }
+    .g-verFash dl{
+        width:100%;
+        height:150px;
+        background:url("../images/foucs_tit_bg (1).png");
+        line-height:58px;
+        position:absolute;
+        left:0;
+        bottom:0;
+        cursor:pointer;
+        color:#fff;
+        overflow: hidden;
+        text-align:center;
+    }
+    .g-verFash dt{
+        width:90%;
+        height:24px;
+        line-height:24px;
+        margin:52px auto 5px;
+        color:#e3e3e3;
+        overflow: hidden;
+    }
+    .g-verFash dd{
+        width:90%;
+        height:48px;
+        line-height:24px;
+        margin:0 auto;
+        font-weight:bold;
+        font-size:16px;
+        color:#fff;
+        overflow: hidden;
+    }
+    .maskBox .g-list{
+        margin:0 20px 20px 0;
+    }
+/**/
+    .g-ads-three{
+        width:1160px;
+        margin-bottom:20px;
+        margin-top: -20px;
+        overflow: hidden;
+    }
+    .g-ads-three .mask{
+        width:1190px;
+    }
+    .g-ads-three .box{
+        width:373px;
+        margin-right: 20px;
+        float:left;
+        overflow: hidden;
+    }
+    .g-ads-three .box div{
+        width:373px;
+        height:120px;
+        border:none;
+        margin:0px;
+        padding:0px;
+        position:relative;
+        overflow: hidden;
+    }
+/*中间导航条*/
+    .navTag{
+        height:40px;
+        margin:30px 0;
+        overflow: hidden;
+    }
+    .navTag a{
+        display:block;
+        height:36px;
+        line-height:36px;
+        padding:0 16px;
+        border:1px solid #d0d0d0;
+        border-radius:36px;
+        float:left;
+        margin:0 10px 15px 0;
+        color:#545454;
+        font-size:16px;
+        background:#fff;
+    }
+    .navTag a:hover{
+        border:1px solid #000;
+        color:#FF6600;
+    }
+/*******/
+    .maskBox.h3{
+        height:1380px;
+    }
+    .g-list.big{
+        width:570px;
+        height:550px;
+    }
+    .g-list.big .img{
+        width:570px;
+        height:425px;
+    }
+    .g-list.big .tit{
+        width:494px;
+        height:68px;
+        line-height:34px;
+        font-size:26px;
+    }
+    .fashShow{
+        width:1160px;
+        background:#1c1c1c;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .fashShow .mask{
+        width:1180px;
+    }
+    .fashShow .list{
+        width:275px;
+        height:435px;
+        float:left;
+        margin-right: 20px;
+        position:relative;
+        overflow: hidden;
+    }
+    .fashShow .list .tits{
+        width:204px;
+        height:50px;
+        line-height:50px;
+        padding:0 20px;
+        text-align:center;
+        font-size:16px;
+        background:#000;
+        color:#fff;
+        position:absolute;
+        left:35px;
+        bottom:20px;
+        opacity:0.5;
+    }
+    .fashShow .newShow{
+        width:254px;
+        padding-top:20px;
+        font-size:16px;
+        overflow: hidden;
+    }
+    .fashShow .newShow .tit{
+        width:142px;
+        height:40px;
+        line-height:40px;
+        text-align:center;
+        border:1px solid #333;
+        border-bottom: none;
+        border-top-width:3px;
+        color:#fff;
+        background:#1c1c1c;
+        position:relative;
+        z-index:3;
+    }
+    .fashShow .newShow .txt{
+        width:252px;
+        height:240px;
+        margin:-1px 0 20px 0;
+        border:1px solid #333;
+        overflow: hidden;
+    }
+    .fashShow .newShow .txt ul{
+        padding:10px 0 15px 20px;
+    }
+    .fashShow .newShow .txt li{
+        height:30px;
+        line-height:30px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .fashShow .newShow .txt li a{
+        color:#838383;
+    }
+    .fashShow .newShow .search{
+        width:254px;
+        overflow: hidden;
+    }
+    .fashShow .newShow .search dl{
+        width:254px;
+        color:#949494;
+        overflow: hidden;
+    }
+    .fashShow .newShow .search dl dt{
+        margin-bottom: 6px;
+    }
+    .fashShow .newShow .search dl dt,.fashShow .newShow .search dl dd{
+        width:240px;
+        height:42px;
+        line-height: 42px;
+        color:#949494;
+        background:#333 url("../images/arrow_d.png") no-repeat 220px center;
+        padding:left:14px;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .mainMore{
+        width:220px;
+        height:54px;
+        line-height:54px;
+        margin:20px auto 40px;
+        border:2px solid #ff6600;
+        color:#ff6600;
+        text-align:center;
+        border-radius:54px;
+        cursor:pointer;
+        overflow: hidden;
+        font-size:20px;
+        background:#fff;
+    }
+		
+
+/*		.banner2 .hiSlider-wrap .hiSlider-btn-prev:hover,.banner2 .hiSlider-wrap .hiSlider-btn-next:hover{opacity:1}*/
+		
+

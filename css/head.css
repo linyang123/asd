@@ -1,0 +1,319 @@
+/*顶部LOGO*/
+.head_logo{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.p_nav{
+    height:54px;
+    min-width:1180px;
+    background: #fff;
+}
+.p_nav .box{
+    width:1160px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.p_nav .box .l{
+    width:1000px;
+    height:54px;
+    line-height: 54px;
+    font-size:20px;
+    color:#000;
+    overflow: hidden;
+    padding-left: 20px;
+}
+.p_nav .box .r{
+    width:310px;
+    height:54px;
+    position: absolute;
+    right:0;
+    top:0;
+    overflow:visible;
+}
+.p_nav .box .l .on{
+    color:#ff5400;
+    font-weight: bold;
+    border-bottom-color: #ff5400;
+}
+.p_nav .box .l a{
+    height:50px;
+    color:#232323;
+    display:block;
+    float:left;
+    margin-right: 32px;
+    border-bottom: 4px solid #fff;
+}
+.p_nav .box .loginOut{
+    width:160px;
+    height:24px;
+    line-height:24px;
+    float:left;
+    margin-top: 16px;
+    text-align:right;
+    overflow: hidden;
+}
+.p_nav .box .r .zoom{
+    width:60px;
+    height:22px;
+    float:right;
+    background:url("../images/zoom.png") no-repeat center center;
+    margin-top: 18px;
+    border-left: 1px solid #ebebec;
+    cursor:pointer;
+}
+.p_nav .box .r .share{
+    float:right;
+    width:80px;
+    margin-top: 16px;
+    padding-top: 4px;
+}
+.p_nav .box .r .share .weixin{
+    background:url("../images/share_weixin.png") no-repeat;
+}
+.p_nav .box .r .share .sina{
+    background:url("../images/share_sina.png") no-repeat;
+    margin-left: 14px;
+}
+.p_nav .box .r .share a{
+    width:22px;
+    height:18px;
+    display:block;
+    float: left;
+    overflow: hidden;
+}
+.p_nav .box .search{
+    width:365px;
+    height:41px;
+    position:absolute;
+    overflow: hidden;
+    background:#f5f5f5;
+    border:1px solid #e7e7e7;
+    top:6px;
+    right:-380px;
+    transition:all .3s linear;
+}
+.p_nav .box .search .btn-close{
+    width:46px;
+    height:41px;
+    float:right;
+    background:#efefef url("../images/icon_close.png") no-repeat center center;
+    cursor:pointer;
+}
+.p_nav .box .search a.btn-sh{
+    width:56px;
+    height:40px;
+    background:url("../images/zoom.png") no-repeat center center;
+    cursor:pointer;
+    float:right;
+}
+.p_nav .box .search .sh-txt{
+    width:252px;
+    height:28px;
+    line-height:28px;
+    margin:6px 0 0 8px;
+    float:left;
+    border:none;
+    border-right: 1px solid #ebebec;
+    background: #f5f5f5;
+    outline:none;
+}
+.jq22-container{
+	margin-top:-10px;
+}
+.wxCode{
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:9999px;
+	top:0;
+	overflow:hidden;
+	z-index:9999;
+}
+.wxCode img{
+	width:100%;
+}
+
+/**/
+.yo_loginWinBox{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:3000;
+	display:none;
+	width:100%;
+	height:414px;
+}
+.yo_loginWin{
+	width:470px;
+	height:389px;
+	left:50%;
+	top:60%;
+	margin:-195px 0 0 -230px;
+	position:absolute;
+	z-index:3001;
+}
+.yo_loginWinMask{
+	width:470px;
+	height:389px;
+	background:#d4d4d4;
+	position:absolute;
+	z-index:3002;
+}
+.yo_loginContent{
+	width:460px;
+	height:379px;
+	position:absolute;
+	z-index:3003;
+	left:5px;
+	top:5px;
+	background:#fff;
+}
+.yo_loginTitle{
+	height:45px;
+	width:450px;
+	background:#ededed;
+	padding:0 10px 0 20px;
+	margin:5px 5px 0;
+}
+.yo_loginTitle i{
+	display:block;
+	width:25px;
+	height:25px;
+	overflow:hidden;
+	background:url("../images/login_close_btn.png") no-repeat;
+	float:right;
+	margin:10px 0 0 0;
+	cursor:pointer;
+}
+.yo_loginTitle span{
+	display:block;
+	width:125px;
+	height:25px;
+	float:left;
+	margin:9px 0 0 0;
+	color:#3e3e3e;
+	overflow:hidden;
+	background:url("../images/yo_login_title_bg.png") no-repeat;
+}
+.yo_loginContentLeft{
+	width:388px;
+	height:242px;
+	padding:22px 0 0;
+	overflow:hidden;
+}
+.yo_loginContentLeft i{
+	display:inline-block;
+	height:16px;
+	font-size:12px;
+	color:#ff0000;
+	font-style:normal;
+	padding:0 0 10px 114px;
+}
+.yo_loginContentLeft dl{
+	height:60px;
+	padding:0;
+	margin:0;
+}
+.yo_loginContentLeft dt{
+	width:104px;
+	font-size:16px;
+	font-family:'Micorsoft YaHei';
+	color:#3e3e3e;
+	text-align:center;
+	padding:7px 10px 0 0;
+	float:left;
+}
+.yo_loginContentLeft dd{
+	float:left;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+.yo_loginInput{
+	width:260px;
+	height:40px;
+	border:1px solid #b8b8b8;
+	margin:0;
+	padding:0 0 0 10px;
+	color:#bfbfbf;
+	font-size:16px;
+	line-height:40px;
+	font-family:'Micorsoft YaHei';
+}
+.yo_loginContentLeft ul{
+	height:96px;
+	padding:0 0 0 114px;
+	overflow:hidden;
+	margin:0;
+	font-size:12px;
+}
+.yo_loginContentLeft li{
+	color:#333;
+	height:45px;
+}
+.yo_login_forgetPwd{
+	color:#123497;
+	display:inline-block;
+	margin:4px 0 0 10px;
+	float:right;
+}
+.yo_loginContentLeft li span{
+	display:block;
+	height:25px;
+	overflow:hidden;
+	font-size:13px;
+}
+.yo_loginBtn{
+	width:89px;
+	height:30px;
+	margin:0 0 0 3px;
+	background:url("../images/yo_topNavbg.gif") no-repeat -90px 0;
+	cursor:pointer;
+	float:left;
+}
+.yo_topNav_link_blue #btn{
+	display:inline-block;
+	float:left;
+	height:30px;
+	width:80px;
+	text-align:center;
+	line-height:30px;
+	font-size:1.1em;
+	background:#737373;
+	color:#fff;
+}
+.yo_topNav_link_blue #btn:hover{color:#000}
+.yo_loginContentLeft li em{
+	display:inline-block;
+	float:right;
+	margin-top:10px;
+}
+.yo_loginContentLeft em{
+	height:20px;
+	display:block;
+	overflow:hidden;
+	font-style:normal;
+	padding:0 0 0 3px;
+}
+.yo_loginContentLeft em a{
+	color:#123497;
+}
+.yo_thirdLogin{
+	width:280px;
+	height:60px;
+	margin:0 auto;
+	margin-top:30px;
+	background:#EDEDED;
+}
+.yo_thirdLogin a{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	font-size:15px;
+}
+.yo_bot{
+	background:#EDEDED;
+}

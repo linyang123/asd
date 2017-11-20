@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<script src="js/00-common.js"></script>
+<script src="js/register.js"></script>
+
+
+    <div class="header_box">
+        <div class="yo_topNav clear">
+            <ul class="yo_topNav_link_grey yo_topNav_links">
+                <li><a href="index_.html">YOKA 时尚网</a></li>
+                <li><a href="index_shop.html">YOKA 商城</a></li>
+            </ul>
+            <div class="yo_topNav_info">
+                <ul>
+                    <li><a href="">积分商城</a></li>
+                    <li>|</li>
+                    <li><a href="">精彩专题</a></li>
+                    <li><a href="">[注册]</a></li>
+                    <li><a href="">[登录]</a></li>
+                    <li>你好,欢迎来到YOKA</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main_box w980">
+        <div class="top_box">
+            <dt>
+                <a href="index_.html"><img src="images/logo123.png" alt=""/></a>
+            </dt>
+            <dd></dd>
+        </div>
+				<div class="middle_box">
+					<dl class="part_title clear">
+						<dt></dt>
+						<dd>
+							我有账号,
+							<a href="">登录</a>
+						</dd>
+					</dl>
+					<dl class="reglietab">
+						<dt>
+							<a href="">手机号码注册</a>
+						</dt>
+					</dl>
+					<div class="reg_form">
+						<form action="data/register.php" method="post">
+							<dl class="clear">
+								<dt>
+									手机号
+									<span>*</span>
+								</dt>
+								<dd>
+									<p>
+										<input type="text" class="txt_input">
+									</p>
+									<span>请填写11位手机号码，注册后，可用手机号登陆和密码找回</span>
+								</dd>
+							</dl>
+							<dl class="short_input yzm mobfd">
+								<dt>
+									验证码
+									<span>*</span>
+								</dt>
+								<dd class="onerror">
+									<p class="onerror_p">
+										<input type="text" class="txt_input">
+									</p>
+									<span><img src="" alt=""></span>
+									<span class="gray_txt">
+										看不清?
+										<a href="">换一换</a>
+									</span>
+									<div>
+										<b class="btn_b">
+											<a href="" class="btn">
+												<b>获取验证码</b>
+											</a>
+										</b>
+									</div>
+								</dd>	
+							</dl>
+							<dl class="short_input">
+								<dt>
+									手机验证码
+									<span>*</span>
+								</dt>
+								<dd class="check_code onerror">
+									<p class="onerror_p">
+										<input type="text" class="txt_input">
+									</p>
+									<span>请查看手机短信，并填写短信中的6位验证码</span>
+								</dd>
+							</dl>
+							<dl class="upwd">
+								<dt>
+									密码
+									<span>*</span>
+								</dt>
+								<dd>
+									<p>
+										<input type="password" name="upwd" id="upwd">
+									</p>
+									<span>6-20位字符，区分大小写</span>
+								</dd>
+							</dl>
+							<dl class="username">
+								<dt>
+									用户名
+									<span>*</span>
+								</dt>
+								<dd>
+									<p>
+										<input type="text" onblur="check_uname()" id="uname" name="uname">
+									</p>
+									<span id="uname_show">2-7个汉字或4-14个字符,不能以数字开头（数字、字母和"_"）</span>
+								</dd>
+							</dl>
+							<dl class="serviceCheck">
+								<dt></dt>
+								<dd class="read_check">
+									<input type="checkbox">
+									<span>
+										我已阅读并接受YOKA时尚网
+										<a href="">服务条款</a>
+										和
+										<a href="">隐私政策</a>
+									</span>
+								</dd>
+							</dl>
+							<dl class="serviceCheck">
+								<dt></dt>
+								<dd class="read_check">
+									<input type="checkbox">
+									<span>
+										同时注册为YOKA男士网用户
+									</span>
+								</dd>
+							</dl>
+							<dl class="reg_now">
+								<dt></dt>
+								<dd class="submit_box">
+									<input type="submit" value="注册"/>
+								</dd>
+							</dl>
+						</form>
+					</div>
+				</div>
+		<div class="bottom_box">
+			<div>
+				<a href="">关于我们</a>|
+				<a href="">版权信息</a>|
+				<a href="">合作伙伴</a>|
+				<a href="">招聘信息</a>|
+				<a href="">联系我们</a>|
+				<a href="">意见反馈</a>|
+				<a href="">网站地图</a>|
+				<a href="">网站帮助</a>|
+				<a href="">rss订阅</a>|
+				<a href="">聚合阅读</a>
+			</div>
+				<p>YOKA时尚网　京ICP证070512号 北京市公安局朝阳分局备案编号：1101050667</p>
+				<p>Copyright © 2006-2014 Yoka.com, All rights reserved. </p>
+		</div>
+    </div>
+
+
+
+</body>
+</html>

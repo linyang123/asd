@@ -1,0 +1,58 @@
+/* jquery.hiSlider.css */
+.hiSlider-pages,
+.hiSlider-title{
+    position: absolute;
+    z-index: 3;
+}
+.hiSlider-btn-prev,
+.hiSlider-btn-next{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    height: 56px;
+    width: 30px;
+    background:  url(../images/foucs.png) no-repeat;
+    margin-top: -15px;
+    text-indent: -200px;
+    overflow: hidden;
+    opacity: .6;
+    filter:alpha(opacity:60);
+}
+.hiSlider-btn-prev{
+    left:10px;
+	 transition:left linear .5s;
+}
+.hiSlider-btn-next{
+    right: 10px;
+	 transition:right linear .5s;
+    background-position: -30px 0;
+}
+a.hiSlider-btn-prev:hover{
+	background:  url(../images/foucs.png) no-repeat 0 -56px;
+}
+a.hiSlider-btn-next:hover{
+	background:  url(../images/foucs.png) no-repeat -30px -56px;
+    opacity: 1;
+/*    filter:alpha(opacity:100);*/
+}
+.hiSlider-pages{
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+}
+.hiSlider-pages a{
+    height: 5px;
+    width: 45px;
+    margin: 0 6px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -100px;
+    font-size: 0;
+    background: #989898;
+}
+.hiSlider-pages a.active{
+    background: #ff5400;
+}
+
+.banner1 .hiSlider-btn-prev{left:-40px;}
+.banner1 .hiSlider-btn-next{right:-40px}
